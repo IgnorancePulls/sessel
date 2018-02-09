@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="63310b67-604e-4d68-b63b-50162876b8a0" name="sessel" url="http://sessel.ee">
+        <fileTransfer host="sessel.ee" port="21" rootFolder="/home/r267567" accessType="FTPS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" forceListCommand="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

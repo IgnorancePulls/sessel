@@ -1,9 +1,45 @@
 @import './colors/default';
 
+$team__background-color: $color-white;
+
 .about-section {
     background: $color-white;
 }
 
 .menu-module {
     padding-bottom: 0;
+}
+
+.info-box {
+    padding-left: 55px;
+
+    &-icon {
+        left: 10px;
+    }
+}
+
+.menu-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    padding: 100px;
+}
+
+.menu-subcategory-title {
+    margin: 20px 0 40px;
+}
+
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-column {
+    flex: 1;
+}
+
+.team {
+    background: $team__background-color;
 }

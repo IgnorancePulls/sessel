@@ -128,16 +128,18 @@ Hero Slider
 
 .titan-caption {
 	position: relative;
-	display: table;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
 	height: 100%;
 	width: 100%;
 	margin: 0 auto;
 }
 
 .caption-content {
-	display: table-cell;
-	vertical-align: middle;
+	display: block;
 	text-align: center;
+	flex-basis: 100%;
 }
 
 /*

@@ -85,7 +85,8 @@ blockquote {
 }
 
 .alt-module-subtitle h5 {
-	display: table-cell;
+	display: block;
+	text-align: center;
 	white-space: pre;
 	padding: 0 8px;
 	color: #111;
