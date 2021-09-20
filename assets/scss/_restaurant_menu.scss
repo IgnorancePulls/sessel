@@ -2,7 +2,7 @@
 .menu {
 	border-bottom: 1px dotted #e5e5e5;
 	padding: 0 0 10px;
-	margin: 0 20px 20px;
+	margin: 0 0 20px;
 	flex-basis: 25%;
 }
 
@@ -13,14 +13,19 @@
 	color: #111;
 }
 
+.menu-subtitle {
+	padding-bottom: 70px;
+}
+
 .menu-price-detail {
 	position: relative;
 	text-align: right;
 }
 
 .menu-wrapper {
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	grid-column-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
 
 	&:before,
 	&:after {

@@ -57,7 +57,7 @@ blockquote {
 	text-align: center;
 	font-weight: 400;
 	font-size: 30px;
-	color: #111;
+	color: $color-abbey;
 	margin: 0 0 70px;
 }
 
@@ -86,10 +86,9 @@ blockquote {
 
 .alt-module-subtitle h5 {
 	display: block;
-	text-align: center;
 	white-space: pre;
 	padding: 0 8px;
-	color: #111;
+	color: $color-dove-grey;
 }
 
 /* Finance case study header */
@@ -99,10 +98,6 @@ blockquote {
 
 	.module-title {
 		margin-bottom: 20px;
-	}
-
-	.alt-features-item {
-		margin-top: 40px;
 	}
 }
 

@@ -7,7 +7,7 @@ html {
 body {
 	background: #fff;
 	font: 400 12px/1.8 "Open Sans", sans-serif;
-	color: #666;
+	color: $color-abbey;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -208,7 +208,7 @@ a,
 }
 
 .holder-w:before {
-	border-top: 1px solid #eaeaea;
+	border-top: 1px solid $color-dove-grey;
 	position: relative;
 	display: block;
 	content: "";

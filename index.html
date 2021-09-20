@@ -58,25 +58,23 @@
 	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
-				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">Sessel</a>
+				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span><span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">
+					<object class="header-logo" data="assets/images/SesselSalong.svg" type="image/svg+xml"></object>
+			</a>
 			</div>
 			<div class="collapse navbar-collapse" id="custom-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#home">Start</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#team">Meeskond</a></li>
-					<li><a href="#services">Services</a></li>
-					<li><a href="#gallery">Gallery</a></li>
-					<li><a href="#contact">Contact Form</a></li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" href="#menu" data-toggle="dropdown">Menu</a>
-						<ul class="dropdown-menu" role="menu">
-							<li><a href="#drinks">Joodid</a></li>
-							<li><a href="#main-menu-food">PEOMENÜÜ</a></li>
-							<li><a href="#secondary-menu-food">SUUPISTE MENÜÜ</a></li>
-							<li><a href="#tertiary-menu-food">FURŠETT</a></li>
-						</ul>
-					</li>
+					<li><a href="#home">AVALEHT</a></li>
+					<li><a href="#about">MEIST</a></li>
+					<li><a href="#services">TEENUSED</a></li>
+					<li><a href="#gallery">GALERII</a></li>
+					<li><a href="#contact">KONTAKT</a></li>
+					<li><a href="#drinks">JOOGID</a></li>
 				</ul>
 			</div>
 		</div>
@@ -84,27 +82,43 @@
 	<section class="home-section home-parallax home-fade home-full-height" id="home">
 		<div class="hero-slider">
 			<ul class="slides">
-                <li class="bg-dark-30 bg-dark" style="background-image:url(assets/images/slider/1slide.jpg);">
+                <li class="bg-dark-30 bg-dark" style="background-image:url(assets/images/slider/first.jpg);">
                     <div class="titan-caption">
                         <div class="caption-content">
                             <div class="font-alt mb-40 titan-title-size-4">Hetk, mil inimesed kohtuvad, on hindamatu</div>
-                            <a class="section-scroll btn btn-border-w btn-round" href="#about">Learn More</a>
+                            <a class="section-scroll btn btn-border-w btn-round" href="#about">Vaata lisaks</a>
                         </div>
                     </div>
                 </li>
-                <li class="bg-dark-30 bg-dark" style="background-image:url(assets/images/slider/2slide.jpg);">
+                <li class="bg-dark-30 bg-dark" style="background-image:url(assets/images/slider/second.jpg);">
                     <div class="titan-caption">
                         <div class="caption-content">
-                            <div class="font-alt mb-40 titan-title-size-4">Koos loome kustumatud mälestused</div>
-                            <a class="section-scroll btn btn-border-w btn-round" href="#about">Learn More</a>
+                            <div class="font-alt mb-40 titan-title-size-4">Hingega</div>
+                            <a class="section-scroll btn btn-border-w btn-round" href="#about">Vaata lisaks</a>
                         </div>
                     </div>
                 </li>
-				<li class="bg-dark-30 bg-dark" style="background-image:url(assets/images/slider/3slide.jpg);">
+				<li class="bg-dark-30 bg-dark" style="background-image:url(assets/images/slider/third.jpg);">
 					<div class="titan-caption">
 						<div class="caption-content">
-							<div class="font-alt mb-40 titan-title-size-4">Loominguline õhkkond - värvikad emotsioonid</div>
-							<a class="section-scroll btn btn-border-w btn-round" href="#about">Learn More</a>
+							<div class="font-alt mb-40 titan-title-size-4">Koos loome kustumatud mälestused</div>
+							<a class="section-scroll btn btn-border-w btn-round" href="#about">Vaata lisaks</a>
+						</div>
+					</div>
+				</li>
+				<li class="bg-dark-30 bg-dark" style="background-image:url(assets/images/slider/forth.jpg);">
+					<div class="titan-caption">
+						<div class="caption-content">
+							<div class="font-alt mb-40 titan-title-size-4">KÕIGE hubasem</div>
+							<a class="section-scroll btn btn-border-w btn-round" href="#about">Vaata lisaks</a>
+						</div>
+					</div>
+				</li>
+				<li class="bg-dark-30 bg-dark" style="background-image:url(assets/images/slider/fifth.jpg);">
+					<div class="titan-caption">
+						<div class="caption-content">
+							<div class="font-alt mb-40 titan-title-size-4">Speakeasy</div>
+							<a class="section-scroll btn btn-border-w btn-round" href="#about">Vaata lisaks</a>
 						</div>
 					</div>
 				</li>
@@ -116,87 +130,107 @@
 			<div class="container">
 				<div class="row">
 					<div>
-						<h5 class="font-alt">SESSEL - loome unustamatuid, hõrke ja positiivseid emotsioone!</h5><br/>
-						<p>Salong, kus aeg kulgeb omasoodu ning probleemid kaotavad varasema tähtsuse.
-							Koht kuhu tulla head jooki nautima või korraldada meeldejääv sündmus loomingulises õhkkonnas.
-							Korra nädalas korraldame põnevaid filmiõhtuid ning tihtipeale ka Open Mic üritusi kuhu on oodatud kõik heli- või luulekunsti esitlejad.
-							Joogikaardis leiad kirju kokteilivaliku, korraliku veinisortimendi, lahjasid alkohoolsed jooke, meie endi värskelt röstitud Arabica kohvi ning palju, palju muud.
-							Meil on võimalus osta kaasa röstitud kohviubasid El Salvadorist, Indiast, Mehhikost, Etioopiast, Brasiiliast jne.
-							Igapäevaselt leiab meie külmavitriinis ka värskeid kooke, vrappe, quiche'i ja pirukaid. Pakume sobitatuid suupisteid ja snäkke joogi kõrvale, mis ei jäta külmaks ühtegi külalist.
+						<h5 class="font-alt">SESSEL SPEAKEASY</h5><br/>
+						<p>Sessel Salong - speakeasy baar,  kuhu tulla imelisi jooke ja snäkke nautima.
+							Meelelahutuse eest vastutavad akustilised kontserdid, filmiõhtud, Hendrick´s muusika- ning Püstijalakomöödia vabalava üritused.  Otsid paika suuremale seltskonnale? Korraldame sulle meeldejääva speo Sesseli loomingulises õhkkonnas.
+							Hubane atmosfäär, imeline teenindus  ja mõnus muusika toetavad elamust.
+							Hetk mil inimesed kohtuvad on hindamatu - külasta Sesselit!
 						</p>
 					</div>
 				</div>
 			</div>
 		</section>
 		<hr class="divider-w">
-		<section class="module bg-dark-60 gallery-page-header parallax-bg" data-background="">
+		<section class="module bg-dark-60 gallery-page-header parallax-bg restaurant-menu-bg" data-background="assets/images/separators/tallinn.jpg">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-						<h2 class="module-title font-alt">Salong Sessel kutsub sind tähistama oma auväärt sündmust vanalinna südames, panoraamvaatega sündmusruumis aadressil Viru 3.</h2>
-						<div class="module-subtitle font-serif">Sessel asub 16.sajandil ehitatud hoones, kus on imeliselt säilinud originaalornamendiga laetalad ning hubasusest pakatav interjöör tekitab atmosfääri,
-							mis on sobilik nii ametlikeks kohtumisteks kui ka sõbralike tähtpäevade pidulikuks tähistamiseks. </div>
+						<h2 class="module-title font-alt">Salong Speakeasy kutsub sind tähistama oma  tähtpäeva vanalinna südames, panoraamvaatega kokteilibaaris, aadressil Viru 3.</h2>
+						<div class="module-subtitle font-serif">Sessel asub 16.sajandil ehitatud hoones, kus on imeliselt säilinud originaalornamendiga laetalad ning hubasusest pakatav interjöör tekitab atmosfääri, mis on sobilik nii ametlikeks kohtumisteks kui ka sõbralike tähtpäevade pidulikuks tähistamiseks.</div>
 					</div>
 				</div>
 			</div>
 		</section>
 		<section  class="module services-section" id="services">
 			<div class="container">
-				<div class="row mb-60">
+				<div class="mb-60 services-wrapper">
 					<div class="alt-features-item">
-						<div class="alt-features-icon"><span class="icon-strategy"></span></div>
+						<div class="alt-features-icon">
+							<img src="assets/images/services/AJALOOLINE RUUM.svg" alt="">
+						</div>
 						<h3 class="alt-features-title font-alt">Ajalooline ruum </h3>
 						Asume Tallinna vanalinna peatäanaval,  Eesti esinduse majas, II korrusel, panoraamvaatega Viru tänavale.
 					</div>
 					<div class="alt-features-item">
-						<div class="alt-features-icon"><span class="icon-tools-2"></span></div>
+						<div class="alt-features-icon">
+							<img src="assets/images/services/LOOMINGULINE ATMOSFÄÄR.svg" alt="">
+						</div>
 						<h3 class="alt-features-title font-alt">Loominguline atmosfäär</h3>
 						Igal Sesselis oleval esemel on oma hing ja lugu. Näiteks 19. sajandi kassaaparaat,
 						II maailmasõja aegsed Olümpial käinud hüppesuusad,  toimiv magnetofon, 18. sajandil apteegis kasutusel olnud vitriin ning koguni 16. sajandist säilinud laetalad originaalse ornamentikaga.
 					</div>
 					<div class="alt-features-item">
-						<div class="alt-features-icon"><span class="icon-target"></span></div>
+						<div class="alt-features-icon">
+							<img src="assets/images/services/HELISÜSTEEM_.svg" alt="">
+						</div>
 						<h3 class="alt-features-title font-alt">Helisüsteem </h3>
 						Sesselis on profesionaalne helisüsteem nii taustamuusikaks kui filmideks.
 					</div>
 					<div class="alt-features-item">
-						<div class="alt-features-icon"><span class="icon-tools"></span></div>
+						<div class="alt-features-icon">
+							<img src="assets/images/services/PROJEKTOR JA EKRAAN.svg" alt="">
+						</div>
 						<h3 class="alt-features-title font-alt">Projektor ja ekraan</h3>
 						Sesselis on võimalik projitseerida ettekannet, videot või muud meediafaili läbi arvuti.
 					</div>
 					<div class="alt-features-item">
-						<div class="alt-features-icon"><span class="icon-camera"></span></div>
-						<h3 class="alt-features-title font-alt">Kohv ja šokolaad </h3>Sesseli baarmen oskab soovitada parimaid jooke ning valmistab imelisi kokteile ka kõige nõudlikumale gurmaanile.
+						<div class="alt-features-icon">
+							<img src="assets/images/services/BAAR.svg" alt="">
+						</div>
+						<h3 class="alt-features-title font-alt">Baar</h3>Sesseli baarmen oskab soovitada parimaid jooke ning valmistab imelisi kokteile ka kõige nõudlikumale gurmaanile.
 					</div>
 					<div class="alt-features-item">
-						<div class="alt-features-icon"><span class="icon-mobile"></span></div>
-						<h3 class="alt-features-title font-alt">Mobile</h3>
+						<div class="alt-features-icon">
+							<img src="assets/images/services/KOHV JA ŠOKOLAAD.svg" alt="">
+						</div>
+						<h3 class="alt-features-title font-alt">KOHV JA ŠOKOLAAD</h3>
 						Sesselis pakume külastajatele erilisi maitseelamusi.
 						Värsket kohvi röstitatakse iga päeva tagant.
 						Kohvioad tulevad meie hubasesse Sesselisse kokku enam kui kümnest erinevast piirkonnast üle terve maailma.
 						Imemaitsva kohvi kõrvale pakume meie endi tehtud käsitööšokolaade.
 					</div>
 					<div class="alt-features-item">
-						<div class="alt-features-icon"><span class="icon-linegraph"></span></div>
+						<div class="alt-features-icon">
+							<img src="assets/images/services/GALERII.svg" alt="">
+						</div>
 						<h3 class="alt-features-title font-alt">Galerii</h3>
 						Sesseli seintel on igapäevaselt eksponeeritud erinevate kunstnike tööd, mis loob kohvi või kokteili kõrvale loomingulise atmosfääri.
 						Soovi korral saab ka Sinu teosed riputada seinasiinidele, mis on valgustatud spetsiaalse näitusevalgustusega.
 						Hetkel võib meie seintel näha kunstnik Takinada töid.
 					</div>
 					<div class="alt-features-item">
-						<div class="alt-features-icon"><span class="icon-basket"></span></div>
+						<div class="alt-features-icon">
+							<img src="assets/images/services/TOITLUSTUS.svg" alt="">
+						</div>
 						<h3 class="alt-features-title font-alt">Toitlustus</h3>
 						Meie kulinaariakunstnikud valmistavad tõelisi toiduelamusi nii loomingulises koduses võtmes kui ka keerukas gurmaanibuffee lahenduses.
+					</div>
+					<div class="alt-features-item">
+						<div class="alt-features-icon">
+							<img src="assets/images/services/stage.svg" alt="">
+						</div>
+						<h3 class="alt-features-title font-alt">Lava</h3>
+						Kohapeal olemas helipult,  digiklaver, elektro-akustiline- ja elektrikitarr, mikrofon ja cajón. Kogu komplekt ühendatud keskhelisüsteemiga.
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="module bg-dark-60 gallery-page-header parallax-bg" data-background="assets/images/gallery_bg.jpg">
+		<section class="module bg-dark-60 gallery-page-header parallax-bg restaurant-menu-bg" data-background="assets/images/separators/Gallery_1.jpg">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3">
 						<h2 class="module-title font-alt">Gallery</h2>
-						<div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
+						<div class="module-subtitle font-serif">Hetk, mil inimesed kohtuvad, on hindamatu. Koos loome kustumatud mälestused.</div>
 					</div>
 				</div>
 			</div>
@@ -328,27 +362,24 @@
 			</div>
 		</section>
 		<section class="module bg-dark-30 parallax-bg restaurant-menu-bg drinks" data-background="assets/images/separators/COCKTAILS.jpg">
+		</section>
+		<section class="module" id="drinks">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-8 col-sm-offset-2">
-						<h2 class="module-title font-alt mb-0">Kokteilid</h2>
+						<h2 class="module-title font-alt mb-0">KLASSIKUD</h2>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row menu-subtitle">
 					<div class="col-sm-12">
 						<div class="alt-module-subtitle">
 							<span class="holder-w"></span>
-							<h5 class="font-serif">Värskendav kokteilivalik meistrilt! Lisaks kokteilidele pakub Sessel värsket röstitud Arabica kohvi erinevatest maailmapaikadest,
-								laia veinivalikut, laua- ja käsitööõlut ning karastusjooke</h5>
+							<h5 class="font-serif">Värskendav kokteilivalik meistrilt!</h5>
 							<span class="holder-w"></span>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		<section class="module" id="drinks">
-			<div class="container">
-				<div class="row multi-columns-row menu-wrapper">
+				<div class="menu-wrapper">
 					<div class="menu">
 						<h4 class="menu-title font-alt">Negroni</h4>
 						<div class="menu-detail font-serif">Campari / Martini Rosso / Džinn</div>
@@ -425,212 +456,14 @@
 				</div>
 			</div>
 		</section>
-		<section class="module bg-dark-30 parallax-bg restaurant-menu-bg" data-background="">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-8 col-sm-offset-2">
-						<h2 class="module-title font-alt mb-0">PEOMENÜÜ</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="alt-module-subtitle">
-							<span class="holder-w"></span>
-							<h5 class="font-serif">Soe buffet 600 g per pax/ Külm buffet 700g per pax</h5>
-							<span class="holder-w"></span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="module" id="main-menu-food">
-			<div class="container">
-				<h3 class="menu-subcategory-title">SOE BUFFET</h3>
-				<div class="row multi-columns-row menu-wrapper">
-					<div class="menu">
-						<h4 class="menu-title font-alt">Kalaroad</h4>
-						<div class="menu-detail font-serif">Küpsetatud lõhefilee kaetud ürdivaibaga</div>
-					</div>
-					<div class="menu">
-						<h4 class="menu-title font-alt">Taimsed road</h4>
-						<div class="menu-detail font-serif">Röstitud köögiviljad</div>
-						<div class="menu-detail font-serif">Kartuligratään</div>
-					</div>
-				</div>
-				<h3 class="menu-subcategory-title">KÜLM BUFFET</h3>
-				<div class="row multi-columns-row menu-wrapper">
-					<div class="menu">
-						<h4 class="menu-title font-alt">Liharoad</h4>
-						<div class="menu-detail font-serif">Röstbiif vürtsikreemiga</div>
-						<div class="menu-detail font-serif">Mahlane pardifilee ja mandariini chutney</div>
-					</div>
-					<div class="menu">
-						<h4 class="menu-title font-alt">Kalaroad</h4>
-						<div class="menu-detail font-serif">Graavitud lõhe punapeedi ja mädarõikaga</div>
-						<div class="menu-detail font-serif">Suitsetatud lestafilee fermenteeritud kurgi salsaga</div>
-					</div>
-					<div class="menu">
-						<h4 class="menu-title font-alt">Taimetoit</h4>
-						<div class="menu-detail font-serif">Kitsejuustu flan viigimarjamoosi ja leiva-tšipsiga</div>
-						<div class="menu-detail font-serif">Grillitud kõrvits pesto ja kreeka pähklitega</div>
-					</div>
-					<div class="menu">
-						<h4 class="menu-title font-alt">Suupisted</h4>
-						<div class="menu-detail font-serif">Tennessee BBQ-sealihakorvike magusa kartulikreemiga</div>
-						<div class="menu-detail font-serif">Külmsuitsulõhe suupiste maasika ja redisega</div>
-						<div class="menu-detail font-serif">Seeneraguu korvike</div>
-					</div>
-					<div class="menu">
-						<h4 class="menu-title font-alt">Salatid</h4>
-						<div class="menu-detail font-serif">Juustune Itaalia salat</div>
-						<div class="menu-detail font-serif">Klassikaline Ceasari salat</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="module bg-dark-30 parallax-bg restaurant-menu-bg" data-background="assets/images/restaurant/cake_pastries_bg.jpg">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-8 col-sm-offset-2">
-						<h2 class="module-title font-alt mb-0">SUUPISTE MENÜÜ</h2>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="module" id="secondary-menu-food">
-			<div class="container">
-				<h3 class="menu-subcategory-title">SOE BUFFET</h3>
-				<div class="row multi-columns-row menu-wrapper">
-					<div class="menu">
-						<h4 class="menu-title font-alt">Lihasuupisted</h4>
-						<div class="menu-detail font-serif">Tennessee BBQ-sealihakorvike maguskartuli kreemiga</div>
-						<div class="menu-detail font-serif">Kanafilee ja parmesani juusturull, täidetud marineeritud jõhvikatega</div>
-						<div class="menu-detail font-serif">Röstbiif ja vürtsisibulamoos</div>
-						<div class="menu-detail font-serif">Pealinna salat pokaalis</div>
-						<div class="menu-detail font-serif">Bruschetta kergelt suitsetatud pardifilee ja mango salsaga</div>
-					</div>
-					<div class="menu">
-						<h4 class="menu-title font-alt">Kalasuupisted</h4>
-						<div class="menu-detail font-serif">Heeringa tar-tariga täidetud korvike</div>
-						<div class="menu-detail font-serif">Suitsulõhe suupiste, sidrunikreemi ja maasikatega</div>
-					</div>
-					<div class="menu">
-						<h4 class="menu-title font-alt">Taimsed suupisted</h4>
-						<div class="menu-detail font-serif">Grill tar-tarkattega bruschetta</div>
-						<div class="menu-detail font-serif">Seeneraguu korvike</div>
-						<div class="menu-detail font-serif">Puuviljavalik</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="module bg-dark-30 parallax-bg restaurant-menu-bg" data-background="assets/images/restaurant/cake_pastries_bg.jpg">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-8 col-sm-offset-2">
-						<h2 class="module-title font-alt mb-0">FURŠETT</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-12">
-						<div class="alt-module-subtitle">
-							<span class="holder-w"></span>
-							<h5 class="font-serif">Soe buffet 200g per pax/ Külm buffet 500g per pax</h5>
-							<span class="holder-w"></span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="module" id="tertiary-menu-food">
-			<div class="container">
-				<h3 class="menu-subcategory-title">SOE BUFFET</h3>
-				<div class="row multi-columns-row menu-wrapper">
-					<div class="menu">
-						<h4 class="menu-title font-alt">Kalaroad</h4>
-						<div class="menu-detail font-serif">Lõhevardad flambeeritud brändiga</div>
-						<div class="menu-detail font-serif">Krõbedad hiidkrevetid panko paneeringus</div>
-					</div>
-					<div class="menu">
-						<h4 class="menu-title font-alt">Liharoad</h4>
-						<div class="menu-detail font-serif">Meega glaseeritud sealihavardad</div>
-					</div>
-				</div>
-				<h3 class="menu-subcategory-title">KÜLM BUFFET</h3>
-				<div class="row multi-columns-row menu-wrapper">
-					<div class="menu">
-						<h4 class="menu-title font-alt">Kalaroad</h4>
-						<div class="menu-detail font-serif">Ingveriga marineeritud lõhe tar-tar krõbedas korvis</div>
-						<div class="menu-detail font-serif">Suitsulesta bruschetta kaetud õuna- ja peedisalatiga</div>
-						<div class="menu-detail font-serif">Saksapärane Baieri salat serveeritud pokaali</div>
-						<div class="menu-detail font-serif">Suupiste vürtsikilufilee ja vutimunaga</div>
-					</div>
-					<div class="menu">
-						<h4 class="menu-title font-alt">Liharoad</h4>
-						<div class="menu-detail font-serif">Mangoga glaseeritud seasisefilee bruschetta</div>
-						<div class="menu-detail font-serif">Bruschetta parma singi ja meloniga</div>
-					</div>
-					<div class="menu">
-						<h4 class="menu-title font-alt">Taimsed road</h4>
-						<div class="menu-detail font-serif">Täidetud seened kinoa-salsaga</div>
-						<div class="menu-detail font-serif">Korvike kitsejuustukreemi ja viigimarjamoosiga</div>
-						<div class="menu-detail font-serif">Puuviljavalik</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="module" id="team" class="team">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-6 col-sm-offset-3">
-						<h2 class="module-title font-alt">MEESKOND</h2>
-						<div class="module-subtitle font-serif">
-							Imeline töötaja on keegi, kelle töö ja hobi käivad käsikäes. Iga Sesseli meeskonnaliige on kõrgelt väärtustatud.
-							Oleme arvamusel, et õnnelik töötaja teeb õnnelikuks ka kliendid.
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3">
-						<div class="team-item">
-							<div class="team-image"><img src="assets/images/team/IMG_8361.jpg" alt="Member Photo"/></div>
-							<div class="team-descr font-alt">
-								<div class="team-name">JURI PÜTSEPP</div>
-								<div class="team-role">tegevjuht</div>
-							</div>
-						</div>
-					</div>
-					<div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
-						<div class="team-item">
-							<div class="team-descr font-alt">
-								<div class="team-name">JONATHAN PETERSON</div>
-								<div class="team-role">peabaarmen</div>
-							</div>
-						</div>
-					</div>
-					<div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
-						<div class="team-item">
-							<div class="team-descr font-alt">
-								<div class="team-name">KAJA LEITHAM</div>
-								<div class="team-role">kohvimeister</div>
-							</div>
-						</div>
-					</div>
-					<div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3">
-						<div class="team-item">
-							<div class="team-descr font-alt">
-								<div class="team-name">JAN</div>
-								<div class="team-role">teenindusjuht</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		<section class="module bg-dark-30 parallax-bg restaurant-menu-bg" data-background="assets/images/separators/main_menu.jpg">
+			<div class="container"></div>
 		</section>
 		<section class="module contact-section" id="contact">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3">
-						<h2 class="module-title font-alt">KONTAKT</h2>
+						<h2 class="module-title font-alt">BRONEERI LAUD</h2>
 						<div class="module-subtitle font-serif"></div>
 					</div>
 				</div>
@@ -648,7 +481,7 @@
 								<p class="help-block text-danger"></p>
 							</div>
 							<div class="form-group">
-								<textarea class="form-control" rows="7" id="message" name="message" placeholder="Räägi meile oma ideest*" required="required" data-validation-required-message="Please enter your message."></textarea>
+								<textarea class="form-control" rows="7" id="message" name="message" placeholder="Broneeri laud" required="required" data-validation-required-message="Please enter your message."></textarea>
 								<p class="help-block text-danger"></p>
 							</div>
 							<div class="text-center">
@@ -663,8 +496,9 @@
 							<h3 class="alt-features-title font-alt">Sessel OÜ</h3>
 							Viru 3, II korrus, 10111<br/>
 							Tallinn<br/>
-							<a href="mailto:salong@sessel.een" target="_top">salong@sessel.ee</a></br>
-							<a href="tel:+372 58004899">+372 58004899</a><br/>
+							<a href="mailto:info@sessel.ee" target="_top">info@sessel.ee</a></br>
+							<a href="tel:+372 54556666">+372 54556666</a><br/>
+							<p>NB: Igapäevasel kella 18:00-ni võtame reserveeringud võtame vastu e-posti, Facebooki ja veebi teel.</p>
 						</div>
 					</div>
 				</div>
@@ -673,12 +507,12 @@
 		<section class="module-extra-small bg-dark footer">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-6 col-md-8 col-lg-9">
+					<div class="col-sm-12 col-md-12 col-lg-9">
 						<div class="callout-text font-alt">
 							<h4 style="margin-top: 0px;">Sessel OÜ</h4>
 							<p style="margin-bottom: 0px;">Viru 3, II korrus, 10111</p>
 							<p style="margin-bottom: 0px;">Tallinn</p>
-							<a href="mailto:salong@sessel.een" target="_top">salong@sessel.ee</a></br>
+							<a href="mailto:salong@sessel.ee" target="_top">salong@sessel.ee</a></br>
 							<a href="tel:+372 58004899">+372 58004899</a><br/>
 						</div>
 					</div>
@@ -707,5 +541,13 @@ JavaScripts
 <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
 <script src="assets/js/plugins.js"></script>
 <script src="assets/js/main.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114302749-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-114302749-1');
+</script>
 </body>
 </html>
