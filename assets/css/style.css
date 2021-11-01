@@ -1783,6 +1783,14 @@ Google map
   display: none;
 }
 
+.sushi-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.sushi-menu__item {
+  flex: 1;
+}
+
 /*--------------------------------------------------------------
 	Price Table
 --------------------------------------------------------------*/
